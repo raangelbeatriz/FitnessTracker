@@ -36,7 +36,7 @@ public class ListCalcActivity extends AppCompatActivity {
                     adapter.notifyDataSetChanged();
                     Log.d("List", registers.toString());
                 });
-            });
+            }).start();
         }
     }
 }
