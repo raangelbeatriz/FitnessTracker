@@ -58,7 +58,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
         }
 
         String formatDate(String createdDate){
-            String formatted = "";
+            String formatted = " ";
             try{
                 SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", new Locale("pt", "BR"));
                 SimpleDateFormat dateBR = new SimpleDateFormat("dd-MM-yyyy HH:mm", new Locale("pt", "br"));
